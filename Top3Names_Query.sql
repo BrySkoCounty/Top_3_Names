@@ -3,7 +3,8 @@ SELECT
     gender,
     year,
     name,
-    number
+    number,
+    row_num
 FROM
     (
 	--This selects all columns, and assigns row numbers to each by year, gender, and state 
